@@ -15,7 +15,7 @@ class TextButton(UIControl):
 
 
 class CheckBox(UIControl):
-    def paint(self):
+    def draw(self):
         print("Drawing a checkbox")
 
 
